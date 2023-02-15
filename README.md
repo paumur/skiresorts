@@ -6,8 +6,8 @@ To run this project locally, you will need to have Node.js installed on your com
 
 1. Clone this repository to your local machine.
 2. Open a terminal and navigate to the project directory.
-3. Install project dependencies by running npm install in the terminal.
-4. Start the project by running npm run dev.
+3. Install project dependencies by running `npm install` in the terminal.
+4. Start the project by running `npm run dev`.
 5. Open your web browser and navigate to http://localhost:5173 to access the application.
 
 ## Features
