@@ -1,0 +1,9 @@
+.search-bar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.search-bar:has(*:focus) {
+  gap: 2px;
+}

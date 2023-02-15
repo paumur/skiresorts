@@ -1,0 +1,19 @@
+.page-not-found {
+  width: 100vw;
+  min-height: 100vh;
+  background: url('./wladislaw-sokolowskij-0vw4InAC-yM-unsplash.jpg');
+  background-color: rgba(128, 128, 128, 0.895);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+
+  h1 {
+    margin: 0;
+  }
+}

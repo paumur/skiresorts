@@ -1,0 +1,19 @@
+.home-page {
+  width: 100vw;
+  height: 100vh;
+  background: url('./alex-lange-KXZPJRkBZPQ-unsplash.jpg');
+  background-color: rgba(128, 128, 128, 0.458);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  .title {
+    max-width: 1400px;
+    padding: 0px 50px;
+  }
+}

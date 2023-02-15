@@ -1,0 +1,24 @@
+.button {
+  border-radius: 5px;
+  background-color: #3b3b3b;
+  padding: 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &--search {
+    border-radius: 0px 5px 5px 0px;
+    background-color: #242424;
+  }
+  &--favorite {
+    display: inline-block;
+    i {
+      margin: 0;
+    }
+  }
+  &--card {
+    background-color: #242424;
+  }
+  &--card:hover {
+    color: #6096b4;
+  }
+}

@@ -1,0 +1,19 @@
+.next-page-container {
+  width: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+
+  i {
+    font-size: 30px;
+    margin: auto;
+    transition: all 0.2s linear;
+  }
+
+  i:hover {
+    scale: 1.1;
+    color: #3b3b3b;
+    cursor: pointer;
+  }
+}

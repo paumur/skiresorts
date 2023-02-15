@@ -1,0 +1,29 @@
+.resorts-page {
+  width: 100vw;
+  min-height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(110, 89, 148, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  h1 {
+    margin: 0;
+  }
+  .cards-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-gap: 50px;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 400px));
+  }
+}
+
+.resorts-page:has(h1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

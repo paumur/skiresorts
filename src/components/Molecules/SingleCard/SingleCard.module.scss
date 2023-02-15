@@ -1,0 +1,45 @@
+.single-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 25px;
+  background-color: #3b3b3b;
+  padding: 20px;
+  border-radius: 10px;
+  .single-card__left {
+    img {
+      border-radius: 5px;
+    }
+  }
+  .single-card__right {
+    h2 {
+      margin-top: 0;
+    }
+    i {
+      margin-left: 20px;
+    }
+    p {
+      margin: 0;
+    }
+    button {
+      margin-top: 20px;
+    }
+    .weather-card {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      i {
+        margin: 0;
+        font-size: 20px;
+      }
+      &__stat {
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+}
