@@ -3,9 +3,9 @@ import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import styles from './Resorts.module.scss';
-import * as resortsSelector from '../../src/resorts/selectors';
-import ResortCard from '../../src/components/Molecules/ResortCard/ResortCard';
-import NextPage from '../../src/components/Molecules/NextPage/NextPage';
+import * as resortsSelector from '../../resorts/selectors';
+import ResortCard from '../../components/Molecules/ResortCard/ResortCard';
+import NextPage from '../../components/Molecules/NextPage/NextPage';
 
 function Resorts() {
   const navigate = useNavigate();

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './SingleResort.module.scss';
 import { useParams } from 'react-router-dom';
-import SingleCard from '../../src/components/Molecules/SingleCard/SingleCard';
+import SingleCard from '../../components/Molecules/SingleCard/SingleCard';
 
 const SingleResort = () => {
   let { id } = useParams();

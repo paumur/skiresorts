@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './PageNotFound.module.scss';
-import Button from '../../src/components/Atoms/Button/Button';
+import Button from '../../components/Atoms/Button/Button';
 
 const PageNotFound = () => {
   return (

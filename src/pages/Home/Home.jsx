@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Home.module.scss';
-import SearchBar from '../../src/components/Molecules/SearchBar/SearchBar';
-import Button from '../../src/components/Atoms/Button/Button';
+import SearchBar from '../../components/Molecules/SearchBar/SearchBar';
+import Button from '../../components/Atoms/Button/Button';
 
 export const Home = () => {
   return (

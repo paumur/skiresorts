@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Home from '../pages/Home/Home';
-import Resorts from '../pages/Resorts/Resorts';
-import Results from '../pages/Results/Results';
-import SingleResort from '../pages/SingleResort/SingleResort';
-import PageNotFound from '../pages/PageNotFound/PageNotFound';
+import Home from '../src/pages/Home/Home';
+import Resorts from '../src/pages/Resorts/Resorts';
+import Results from '../src/pages/Results/Results';
+import SingleResort from '../src/pages/SingleResort/SingleResort';
+import PageNotFound from '../src/pages/PageNotFound/PageNotFound';
 import { Provider } from 'react-redux';
 import store from './state/index';
 

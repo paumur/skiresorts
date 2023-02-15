@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import resorts from '../../src/resorts';
+import resorts from '../../resorts';
 import styles from './Results.module.scss';
-import * as resortsSelector from '../../src/resorts/selectors';
-import ResortCard from '../../src/components/Molecules/ResortCard/ResortCard';
-import NextPage from '../../src/components/Molecules/NextPage/NextPage';
+import * as resortsSelector from '../../resorts/selectors';
+import ResortCard from '../../components/Molecules/ResortCard/ResortCard';
+import NextPage from '../../components/Molecules/NextPage/NextPage';
 
 function Results() {
   const dispatch = useDispatch();
