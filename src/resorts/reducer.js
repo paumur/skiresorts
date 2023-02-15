@@ -36,17 +36,18 @@ function reducer(state = INITIAL_STATE, action) {
     }
     case types.ADD_OR_REMOVE_FAVORITES: {
       if (!state.favorites.includes(action.payload)) {
-        state.favorites.push(action.payload);
-        localStorage.setItem('favorites', JSON.stringify(state.favorites));
+        const newFavorites = [...state.favorites, action.payload];
         return {
           ...state,
+          favorites: newFavorites,
         };
       } else {
         const index = state.favorites.indexOf(action.payload);
-        state.favorites.splice(index, 1);
-        localStorage.setItem('favorites', JSON.stringify(state.favorites));
+        const favorites = [...state.favorites];
+        favorites.splice(index, 1);
         return {
           ...state,
+          favorites: favorites,
         };
       }
     }
